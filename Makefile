@@ -1,2 +1,2 @@
-pcap: pcap.c
-	gcc -o pcap pcap.c -lpcap
+pcap: main.c
+	gcc -o pcap main.c -lpcap
